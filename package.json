@@ -1,0 +1,15 @@
+{
+  "name": "trenka",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Тренька — упражнения из рилсов с таймером. Офлайн PWA без сборки.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/timer.test.js",
+    "e2e": "node test/e2e/run.mjs",
+    "serve": "py -m http.server 8765 --bind 127.0.0.1"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^23.11.1"
+  }
+}
