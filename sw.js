@@ -1,6 +1,6 @@
 // Service worker: кладём оболочку приложения в кэш, чтобы всё открывалось без интернета.
 // При любом изменении файлов повышай версию CACHE — иначе телефон останется на старой копии.
-const CACHE = 'posture-v0.1.1';
+const CACHE = 'posture-v0.1.2';
 const ASSETS = [
   './',
   './index.html',
@@ -34,7 +34,7 @@ const ASSETS = [
 self.addEventListener('install', (e) => {
   e.waitUntil(
     caches.open(CACHE)
-      .then((c) => c.addAll(ASSETS))
+      .then((c) => c.addAll(ASSETS.map((a) => new Request(a, { cache: 'reload' }))))
       .catch((err) => { console.error('[sw] не удалось закэшировать файлы:', err); throw err; }),
   );
 });

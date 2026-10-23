@@ -1,6 +1,6 @@
 {
   "name": "posture",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "description": "Posture — упражнения из рилсов с таймером. Офлайн PWA без сборки.",
   "type": "module",
