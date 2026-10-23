@@ -1,6 +1,6 @@
 {
-  "name": "Тренька",
-  "short_name": "Тренька",
+  "name": "Posture",
+  "short_name": "Posture",
   "description": "Упражнения из рилсов с таймером на одном экране. Работает без интернета.",
   "start_url": "./",
   "scope": "./",

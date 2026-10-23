@@ -12,7 +12,7 @@ export async function render() {
     : guide({ hasVideo: vids.length > 0, hasEx: exs.length > 0 });
 
   const el = page({
-    title: 'Тренька',
+    title: 'Posture',
     cls: 'page--home',
     right: h('a', { class: 'topbar__btn', href: '#/settings', 'aria-label': 'Настройки' }, icon('gear')),
   },

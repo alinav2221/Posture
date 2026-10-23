@@ -1,8 +1,8 @@
 {
-  "name": "trenka",
-  "version": "0.1.0",
+  "name": "posture",
+  "version": "0.1.1",
   "private": true,
-  "description": "Тренька — упражнения из рилсов с таймером. Офлайн PWA без сборки.",
+  "description": "Posture — упражнения из рилсов с таймером. Офлайн PWA без сборки.",
   "type": "module",
   "scripts": {
     "test": "node --test test/timer.test.js",
